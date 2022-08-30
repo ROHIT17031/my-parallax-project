@@ -36,8 +36,15 @@ nav a:hover{
       color: black;
 }
 
+
+.myVideo{
+position: absolute;
+right: 0;
+top: 0;
+z-index: -1;
+}
 .outer{
-      background-image: url(./images/new.jpg);
+      background-image: url(./images/video.mp4);
       background-repeat: no-repeat;
       background-size: auto;
       height: 100vh;
