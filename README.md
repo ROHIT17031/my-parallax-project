@@ -1,12 +1,15 @@
 
-# Parallex Website Demo
+# Parallex Website
 
 Full page Parallex Website with interlink navigation menu
+
+Link : https://parallex-site-project.netlify.app/
 ## Installation
 
 Simple Installation process 
 
 ```
+for installing on hosting server
  place directly in webdirectory
  create folder in public_html forlder in c-panel
  make sure to park your domain in your webhosting first
@@ -38,3 +41,6 @@ Please adhere to this project's `code of conduct`.
 
 
 
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/ROHIT17031)
