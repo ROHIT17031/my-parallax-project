@@ -12,6 +12,7 @@ nav{
       top: 0;
       width: -moz-available;
       width:  -webkit-fill-available;
+      z-index: 200;
 }
 nav span{
       color: wheat;
@@ -37,7 +38,7 @@ nav a:hover{
 }
 
 
-.myVideo{
+#myVideo{
 position: absolute;
 right: 0;
 top: 0;
@@ -73,28 +74,43 @@ background-attachment: fixed;
       color: black;
       width: 500px;
       animation: right-animate 3s ease infinite alternate;
+      backdrop-filter: blur(3px);opacity: .8;
+      position: relative;
+      padding: 2rem;
+      border-radius: 10px;
+
 }
 
 @keyframes right-animate {
       0% {
           /* transform: translateX(0px); */
-          width: 300px;
+          left: 25px;
           background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
 
       }
     
       100%{
-            background-color: #85FFBD;
-            background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+            background-color: #8b8b8b;
+            /* background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
             
-            width: 600px;
+            left: -25px;
       }
   }
   
 
-
-
+.text1{
+      font-size: 6rem;
+      color: #fff;
+      text-shadow: 2px 3px 6px #000;
+      text-transform: uppercase;
+    
+}
+.myName{
+      font-size: 2rem;
+      text-transform: uppercase;
+      color: white;
+}
 
 
 
